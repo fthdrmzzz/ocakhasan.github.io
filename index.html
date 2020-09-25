@@ -1,38 +1,233 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<html lang="en">
 
-		<!-- include compass css translation -->
-		<link href="stylesheets/style.css" type="text/css" rel="stylesheet" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/logo.png">
+    <title>Hasan Ocak Portfolio</title>
+</head>
 
-		<!-- fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="name">
+                <a href="#" class="green-hover">Hasan Ocak</a>
+            </div>
 
-		<!-- import icons -->
-		<script src="https://unpkg.com/ionicons@4.2.4/dist/ionicons.js"></script>
+            <a href="#" class="toggle-button green-hover">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
 
-		<!-- Import favicons -->
-		<link rel="shortcut icon" type="image/png" href="resources/icon.png"/>
+            <div class="links-div">
+                <ul class="links">
+                    <a href="#about">
+                        <li class="green-hover">About</li>
+                    </a>
+                    <a href="#projects">
+                        <li class="green-hover">Projects</li>
+                    </a>
+                    <a href="https://ocakhasan.blogspot.com/" target="_blank">
+                        <li class="green-hover">Blog</li>
+                    </a>
+                    <a href="resources/hasan_ocak_cv.pdf" target="_blank">
+                        <li class="green-hover"><button class="resume green-text">Get My Resume</button></li>
+                    </a>
+                </ul>
+            </div>
 
-		<title>Hasan Ocak WebPage</title>
-	</head>
 
-	<div class="outer">
-		<div class="inner">
-			<section class = "gap loadanimation">
-				<img src="resources/profile.jpg" class="avatar">
-				<h1 class="padDown">I am Hasan Ocak</h1>
-            		</section>
+        </nav>
 
-			<ul class="gap social">
-				<li class="icon-resume tile"><a href= "resources/resume.pdf"><ion-icon name="document"></ion-icon><br><br>Resume</a></li>
+        <div class="information">
+            <p class="green-text">Hi my name is, </p>
+            <div class="name-surname">
+                <h1>H A S A N</h1>
+                <h1>O C A K</h1>
+            </div>
+            <h2>Junior Computer Science Student at <a href="https://www.sabanciuniv.edu/" class="green-text green-decoration"
+                    target="_blank">Sabancı University</a>.</h2>
+            <h2>Interested in <span class="green-text"> many things</span>.</h2>
+        </div>
 
-				<li class="icon-transcript tile"><a href="resources/transcript.pdf"><ion-icon name="school"></ion-icon><br><br>Transcript</a></li>
-				<li class="icon-github tile"><a href="https://github.com/ocakhasan"><ion-icon name="logo-github"></ion-icon><br><br>GitHub</a></li>
-				<li class="icon-linkedin tile"><a href="https://www.linkedin.com/in/ocakhasan/"><ion-icon name="logo-linkedin"></ion-icon><br><br>LinkedIn</a></li>
-				<li class="icon-email tile"><a href="mailto: ocakhasan99@gmail.com"><ion-icon name="mail"></ion-icon><br><br>Email</a></li>
-			</ul>
-		</div>
-	</div>
+        <div class="contact-info">
+            <a href="mailto: ocakhasan99@gmail.com"><button class="reach-button green-text button-hover">Get In
+                    Touch</button></a>
+
+            <div class="social-links">
+                <ul>
+                    <a href="https://github.com/ocakhasan" target="_blank">
+                        <li><img class="social-link" src="images/github-white.svg" alt=""></li>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ocakhasan/" target="_blank">
+                        <li><img class="social-link" src="images/linkedin.svg" alt=""></li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="about" id="about">
+            <div class="introduction">
+                <h1 class="header green-text">About me</h1>
+                <p>I am junior Computer Science and Engineering student in Sabancı University.
+                </p>
+                <br>
+
+                <p> I am mostly interested in Machine Learning and Deep Learning.</p>
+                <p> I enjoy dealing with data and try to get some insights.</p>
+
+
+                <div class="lang-div">
+                    <p>Here are some technologies I use</p>
+                    <ul>
+                        <li>Python</li>
+                        <li>C++</li>
+                        <li>HTML + CSS</li>
+                        <li>Android</li>
+                        <li>Node.js</li>
+                        <li>Flask</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="img">
+                <img src="images/profile.png" alt="">
+            </div>
+        </div>
+        <hr>
+        <div class="projects m-5" id="projects">
+            <h1 class="header green-text">Projects</h1>
+            <ul class="projects-list">
+                <li>
+                    <div class="project-item">
+                        <h2 class="green-text">Movie Recommender</h2>
+                        <p>A web app which recommends movie based on text similarity of movies.
+                            Uses cosine similarity.
+                        </p>
+                        <div class="project-link">
+
+                            <div class="tech-stacks">
+                                <ul>
+                                    <li class="gray-text">Flask</li>
+                                    <li class="gray-text">Sklearn</li>
+                                    <li class="gray-text">Bootstrap</li>
+                                </ul>
+                            </div>
+
+                            <div class="icons">
+                                <a href="https://github.com/ocakhasan/movie-recommender" target="_blank">
+                                    <img src="images/github.svg" alt="" class="project-link-item">
+                                </a>
+                                <a href="https://banafilmoner.herokuapp.com/" target="_blank">
+                                    <img src="images/right-arrow-button.svg" alt="" class="project-link-item">
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="project-item">
+                        <h2 class="green-text">Eksı Sozluk Text Classification</h2>
+                        <p>A classification example on a text dataset. Collected data by web scraping.
+                        </p>
+                        <div class="project-link">
+
+                            <div class="tech-stacks">
+                                <ul>
+                                    <li class="gray-text">Python</li>
+                                    <li class="gray-text">Sklearn</li>
+                                    <li class="gray-text">BeautifulSoup</li>
+                                </ul>
+                            </div>
+
+                            <div class="icons">
+                                <a href="https://github.com/ocakhasan/text-classification" target="_blank">
+                                    <img src="images/github.svg" alt="" class="project-link-item">
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="project-item">
+                        <h2 class="green-text">Android News App</h2>
+                        <p>An Android application which shows some news from a RESTFUL API.
+                            Used Dynamic UI for the fetched data.
+                        </p>
+                        <div class="project-link">
+
+                            <div class="tech-stacks">
+                                <ul>
+                                    <li class="gray-text">Java</li>
+                                    <li class="gray-text">Android</li>
+                                </ul>
+                            </div>
+
+                            <div class="icons">
+                                <a href="https://github.com/ocakhasan/News-App" target="_blank">
+                                    <img src="images/github.svg" alt="" class="project-link-item">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="project-item">
+                        <h2 class="green-text">Airbnb Price Predictor</h2>
+                        <p>A web app which shows the price of an house with given inputs. 
+                            Trained a neural network with Tensorflow.
+                        </p>
+                        <div class="project-link">
+
+                            <div class="tech-stacks">
+                                <ul>
+                                    <li class="gray-text">Flask</li>
+                                    <li class="gray-text">Tensorflow</li>
+                                    <li class="gray-text">HTML CSS</li>
+                                </ul>
+                            </div>
+
+                            <div class="icons">
+                                <a href="https://github.com/ocakhasan/airbnb-price-prediction" target="_blank">
+                                    <img src="images/github.svg" alt="" class="project-link-item">
+                                </a>
+                                <a href="https://github.com/ocakhasan/airbnb-price-prediction" target="_blank">
+                                    <img src="images/right-arrow-button.svg" alt="" class="project-link-item">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        
+    </div>
+
+    <div class="footer">
+        
+        <div class="contact-button">
+            <p>To contact with me about anything</p>
+            <button class="reach-button mt-2 green-text">Say Hello</button>
+        </div>
+
+        <div class="designed">
+            <p>Designed and built by Hasan Ocak</p> 
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+
+</body>
+
 </html>
