@@ -233,7 +233,7 @@ ul{
 }
 
 .footer{
-    background-color:#172a45;
+    background-color:#303C55;
     width:100%;
     margin: 0 auto;
     display:flex;
@@ -243,7 +243,16 @@ ul{
     padding:1rem;
 }
 
+.last-social-links{
+    background-color: #172a45;
+}
 
+.last-social-links ul{
+    padding:3rem 0;
+
+    display:flex;
+    justify-content: space-evenly;
+}
 
 .mt-2{
     margin-top:2rem;
