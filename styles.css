@@ -175,7 +175,10 @@ ul{
 
 .project-item{
     margin-top: 2rem;
-    padding:0 1rem 0 0;
+    padding:1rem ;
+    background-color: #172a45;
+    border-radius: 5px;
+    
 }
 
 .green-decoration:hover{
