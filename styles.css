@@ -67,7 +67,7 @@ ul{
 }
 
 .information{
-    margin-top:3rem;
+    margin-top:6rem;
 }
 
 .information h1{
@@ -108,6 +108,8 @@ ul{
 }
 
 .about{
+    min-height:100vh;
+    align-items: center;
     margin:5rem 0;
     display:grid;
     grid-template-columns: 3fr 2fr;
@@ -315,6 +317,8 @@ ul{
         align-items: flex-start;
     }
 
+    .information{margin-top: 3rem;}
+
     .img{
         width: 80%;
     }
@@ -388,7 +392,4 @@ ul{
     }
 
     .toggle-button{top:1rem;}
-
-    
-    
 }
